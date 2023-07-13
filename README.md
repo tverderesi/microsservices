@@ -11,34 +11,24 @@ microsservices is a dirty quick implementation of Event Driven Architecture usin
 ## Installation
 
 1.  Clone the repository:
-
     ```
     git clone https://github.com/your-username/microsservices.git
     ```
 
 2.  Install the dependencies:
+     ```
+    git clone https://github.com/your-username/microsservices.git
+     ```
 
-    `git clone https://github.com/your-username/microsservices.git`
-
-3.  Start the microservices:
-
+4.  Start the microservices:
     - Service A (Event Publisher):
-
-          ```
-
-      node serviceA.js
-
-```
-
-```
-
-- Service B (Event Subscriber):
-
-```
-
-node serviceB.js
-
-```
+    ```
+    node serviceA.js
+    ```
+    - Service B (Event Subscriber):
+    ```
+    node serviceB.js
+    ```
 
 4. Access the services:
 
